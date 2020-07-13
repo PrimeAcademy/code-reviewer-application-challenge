@@ -1,0 +1,23 @@
+main {
+  margin: auto;
+  width: 80%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #FFD4CA;
+  color: #867D76;
+  height: 70px;
+  padding: 20px;
+}
+
+.App-title {
+  font-size: 2em;
+  font-family: Amaranth;
+  text-shadow: 1px 1px 3px #333;
+  letter-spacing: 0.1em;
+}
+

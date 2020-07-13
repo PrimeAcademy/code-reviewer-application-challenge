@@ -1,0 +1,17 @@
+.GalleryItem {
+  padding: 10px;
+  display: inline-block;
+}
+
+.GalleryDisplay {
+  width: 250px;
+  height: 250px;
+}
+
+.GalleryDisplay img {
+  width: 100%;
+}
+
+.GalleryDisplay p {
+  margin: 0;
+}
