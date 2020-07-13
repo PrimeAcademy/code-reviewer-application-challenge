@@ -4,7 +4,7 @@ Welcome!
 
 This application challenge is intended to give you a chance to demonstrate your ability to review programming code and to provide accuate and useful feedback to the coder.
 
-This is an actual weekend assignment given to students in the program and as such, it is intentionally simplified and not expected to be a production-ready application.
+This is an actual weekend assignment given to students in the program and as such, it is intentionally focused on ReactJS and not expected to be a production-ready application.
 
 
 ## What To Do
