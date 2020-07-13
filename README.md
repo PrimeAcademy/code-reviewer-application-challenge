@@ -1,6 +1,27 @@
-# React - Gallery of My Life
+# Instructions
 
-Before you get started make sure to look through the code that has been provided. Server side code to retrieve data (`GET`) and like a photo (`PUT`) have been provided for you. For practice, we recommend testing out these routes in Postman. You should not need to modify these routes for base mode.
+Welcome!
+
+This application challenge is intended to give you a chance to demonstrate your ability to review programming code and to provide accuate and useful feedback to the coder.
+
+This is an actual weekend assignment given to students in the program and as such, it is intentionally simplified and not expected to be a production-ready application.
+
+
+## What To Do
+
+Your goal is to download the project, get it started up and see how it is functioning. From there, look through the code and provide no more than two paragraphs of feedback. Your feedback should contain both positive feedback and areas of improvement. Obviously one of the core tenants of staff and student interaction here at Prime is that the student walks away with clear actionable feedback that makes them feel empowered to make positive change. 
+
+You may assume this student’s name is Kris.
+
+## Challenge Submission
+
+Email your contact when you have finished.
+
+---
+
+## React - Gallery of My Life
+
+This is a React-based application with a minimal REST server. The application should be implemented to the following specifications.
 
 ### Setup
 
@@ -21,7 +42,7 @@ npm run client
 
 Between the server and client, you'll need two terminal tabs! Because we're using `nodemon`, both our client side and server side will automatically spin back up when changes are made!
 
-## BASE MODE
+## REQUIRED FEATURES
 
 - Use `axios` to retrieve (`GET`) data from to `/gallery` and store it in `App.js`.
 - Create a new **component** for the `GalleryList`.
