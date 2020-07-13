@@ -9,7 +9,9 @@ This is an actual weekend assignment given to students in the program and as suc
 
 ## What To Do
 
-Your goal is to download the project, get it started up and see how it is functioning. From there, look through the code and provide no more than two paragraphs of feedback. Your feedback should contain both positive feedback and areas of improvement. Obviously one of the core tenants of staff and student interaction here at Prime is that the student walks away with clear actionable feedback that makes them feel empowered to make positive change. 
+Your goal is to download the project, get it started up and see how it is functioning. From there, look through the code and provide no more than three paragraphs of feedback. Your feedback should contain both positive feedback and areas of improvement. 
+
+One of the core tenants of staff and student interaction here at Prime is that the student walks away with clear, actionable feedback that makes them feel empowered to make positive change. 
 
 You may assume this student’s name is Kris.
 
