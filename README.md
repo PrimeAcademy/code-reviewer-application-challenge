@@ -21,7 +21,11 @@ Email your contact when you have finished.
 
 ---
 
-## React - Gallery of My Life
+## Student Instructions
+
+This is what the students were given.
+
+### React - Gallery of My Life
 
 This is a React-based application with a minimal REST server. The application should be implemented to the following specifications.
 
