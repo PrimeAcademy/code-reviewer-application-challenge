@@ -1,21 +1,19 @@
-import React, { Component } from 'react';
 import GalleryItem from '../GalleryItem/GalleryItem';
 import Axios from 'axios';
 
-class GalleryList extends Component {
+function GalleryList(props) {
 
-  render() {
-    return (
-      <section>
-        {
-          this.props.pictures.map( arrayItem => 
-            <GalleryItem info={arrayItem} 
-                afterUpdate={this.props.getGalleryItems} />
-          )
-        }
-      </section>
-    );
-  }
+  return (
+    <section>
+      {props.pictures.map((arrayItem) => (
+        <GalleryItem
+          info={arrayItem}
+          afterUpdate={props.getGalleryItems}
+        />
+      ))}
+    </section>
+  );
+
 }
 
 export default GalleryList;

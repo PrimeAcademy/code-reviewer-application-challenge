@@ -4,12 +4,11 @@
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
-    "axios": "^0.19.2",
-    "express": "^4.16.3",
-    "mongoose": "^5.9.23",
-    "react": "^16.2.0",
-    "react-dom": "^16.13.1",
-    "react-scripts": "1.1.0"
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
   },
   "devDependencies": {
     "nodemon": "^1.14.11"
@@ -20,5 +19,17 @@
     "server": "nodemon  --watch server server/server.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
