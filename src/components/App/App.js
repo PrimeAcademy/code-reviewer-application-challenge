@@ -1,26 +1,21 @@
-import React, { Component } from 'react';
+import { useState, useEffect } from 'react';
 import GalleryList from '../GalleryList/GalleryList';
 import Axios from 'axios';
 import './App.css';
 
-class App extends Component {
+function App() {
 
-  state = {
-    galleryList: []
-  }
+  let [galleryList, setGalleryList] = useState([]);
 
   // When the component loads, get the gallery from the server 
-  componentDidMount() {
-    this.getGalleryItems();
-  }
+  useEffect(() => {
+    getGalleryItems();
+  });
 
-  // Get the gallery items from the server
-  getGalleryItems = () => {
+  const getGalleryItems = () => {
     Axios.get('/gallery')
       .then( response => {
-        this.setState({
-          galleryList: response.data,
-        })
+        setGalleryList(response.data);
       })
       .catch( error => {
         alert(`Sorry, couldn't get gallery at this time. Try again later.`);
@@ -28,17 +23,15 @@ class App extends Component {
       })
   }
 
-  render() {
     return (
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Gallery of my life</h1>
         </header>
         <br/>
-        <GalleryList pictures={this.state.galleryList} getGalleryItems={this.getGalleryItems}/>
+        <GalleryList pictures={galleryList} getGalleryItems={getGalleryItems}/>
       </div>
     );
-  }
 }
 
 export default App;
